@@ -1,5 +1,10 @@
 ;;; Solution to the Common-Lisp research problem on exercise.io
 
+(defpackage common-lisp-1-b
+  (:use :cl)
+  (:export :make-pokemon :battle))
+(in-package :common-lisp-1-b)
+
 (defstruct pkmn
   "Structure representing a pokemon"
   name
